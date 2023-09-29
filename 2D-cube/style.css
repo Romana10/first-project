@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+
+ .cube-container {
+    position: relative;
+    margin: 10% 0 0 40% ;
+    
+ }
+
+
+ .cube {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+ }
+
+
+ .cube-top {
+    background: url("images/cube1.jpg") no-repeat center center / cover;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+ }
+
+.cube-left {
+    background: url("images/cube2.jpg") no-repeat center center / cover;
+    transform: translate(-45%, 77%) rotate(15deg) skew(15deg, 15deg);
+ }
+
+ .cube-right {
+    background: url("images/cube3.jpg") no-repeat center center / cover;
+    transform: translate(44.5%, 78%) rotate(-15deg) skew(-15deg, -15deg);
+    
+ }
